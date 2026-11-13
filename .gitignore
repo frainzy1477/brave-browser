@@ -13,20 +13,3 @@ cmake-build-debug
 .vscode
 *.sw[a-z]
 *~
-
-docs/build
-docs/_build
-node_modules
-src
-
-.cipd
-.gclient_entries
-.gclient
-.sccache
-
-# logs and test results
-npm-debug.log
-network_log.json
-network-audit-results.json
-
-.npmrc

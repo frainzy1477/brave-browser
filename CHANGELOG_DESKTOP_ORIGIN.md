@@ -1,0 +1,255 @@
+# Changelog
+
+## [1.99.57](https://github.com/brave/brave-browser/releases/tag/v1.99.57)
+
+ - Upgraded Chromium to 157.0.8103.79. ([#61746](https://github.com/brave/brave-browser/issues/61746)) ([Changelog for 157.0.8103.79](https://chromium.googlesource.com/chromium/src/+log/157.0.8103.50..157.0.8103.79?pretty=fuller&n=1000))
+
+## [1.99.56](https://github.com/brave/brave-browser/releases/tag/v1.99.56)
+
+ - Upgraded Chromium to 157.0.8103.50. ([#61672](https://github.com/brave/brave-browser/issues/61672)) ([Changelog for 157.0.8103.50](https://chromium.googlesource.com/chromium/src/+log/157.0.8103.39..157.0.8103.50?pretty=fuller&n=1000))
+
+## [1.99.55](https://github.com/brave/brave-browser/releases/tag/v1.99.55)
+
+ - Re-enabled "Allow split view drag-and-drop on left or right edge of window" setting under brave://settings/braveContent. ([#49752](https://github.com/brave/brave-browser/issues/49752))
+ - Updated icon in URL bar to magnifying glass for Brave Search. ([#58178](https://github.com/brave/brave-browser/issues/58178))
+ - Upgraded Chromium to 157.0.8103.39. ([#60882](https://github.com/brave/brave-browser/issues/60882)) ([Changelog for 157.0.8103.39](https://chromium.googlesource.com/chromium/src/+log/156.0.8078.80..157.0.8103.39?pretty=fuller&n=1000))
+
+## [1.98.63](https://github.com/brave/brave-browser/releases/tag/v1.98.63)
+
+ - Upgraded Chromium to 156.0.8078.80. ([#60306](https://github.com/brave/brave-browser/issues/60306)) ([Changelog for 156.0.8078.80](https://chromium.googlesource.com/chromium/src/+log/156.0.8078.74..156.0.8078.80?pretty=fuller&n=1000))
+
+## [1.98.62](https://github.com/brave/brave-browser/releases/tag/v1.98.62)
+
+ - [Security] Fixed "brave://" scheme navigation issue as reported on HackerOne by miauuu. ([#60127](https://github.com/brave/brave-browser/issues/60127))
+ - Upgraded Chromium to 156.0.8078.74. ([#60210](https://github.com/brave/brave-browser/issues/60210)) ([Changelog for 156.0.8078.74](https://chromium.googlesource.com/chromium/src/+log/156.0.8078.48..156.0.8078.74?pretty=fuller&n=1000))
+
+## [1.98.60](https://github.com/brave/brave-browser/releases/tag/v1.98.60)
+
+ - Added ability to strip metadata from images on download/upload. ([#5238](https://github.com/brave/brave-browser/issues/5238)
+ - Added support for reordering Containers. ([#59099](https://github.com/brave/brave-browser/issues/59099))
+ - Updated brave://settings/autofill to the previous layout. ([#58986](https://github.com/brave/brave-browser/issues/58986))
+ - Updated Private Windows to inherit less-permissive site permissions. ([#58824](https://github.com/brave/brave-browser/issues/58824))
+ - Fixed crash when adding multiple tabs that are already in a tab group to a new one. ([#58666](https://github.com/brave/brave-browser/issues/58666))
+ - Fixed "Ctrl+Shift+S" screenshot tool selection rectangle being offset from the cursor and producing an incorrect crop area. ([#58258](https://github.com/brave/brave-browser/issues/58258)))
+ - Upgraded Chromium to 156.0.8078.48. ([#60069](https://github.com/brave/brave-browser/issues/60069)) ([Changelog for 156.0.8078.48](https://chromium.googlesource.com/chromium/src/+log/155.0.8059.85..156.0.8078.48?pretty=fuller&n=1000))
+
+## [1.97.59](https://github.com/brave/brave-browser/releases/tag/v1.97.59)
+
+ - Upgraded Chromium to 155.0.8059.85. ([#59971](https://github.com/brave/brave-browser/issues/59971)) ([Changelog for 155.0.8059.85](https://chromium.googlesource.com/chromium/src/+log/155.0.8059.80..155.0.8059.85?pretty=fuller&n=1000))
+
+## [1.97.57](https://github.com/brave/brave-browser/releases/tag/v1.97.57)
+
+ - Removed "Payment methods and other info from Brave Wallet" sync data type toggle. ([#59689](https://github.com/brave/brave-browser/issues/59689))
+ - Upgraded Chromium to 155.0.8059.80. ([#59893](https://github.com/brave/brave-browser/issues/59893)) ([Changelog for 155.0.8059.80](https://chromium.googlesource.com/chromium/src/+log/155.0.8059.40..155.0.8059.80?pretty=fuller&n=1000))
+
+## [1.97.56](https://github.com/brave/brave-browser/releases/tag/v1.97.56)
+
+ - Updated screenshots taken in Private or Tor Windows to be marked as sensitive on Windows. ([#58875](https://github.com/brave/brave-browser/issues/58875))
+ - Fixed crash which occurred on macOS in certain cases when an update was pending. ([#58699](https://github.com/brave/brave-browser/issues/58699))
+ - Fixed "Pin to taskbar" not displaying a system notification on Windows. ([#58830](https://github.com/brave/brave-browser/issues/58830))
+ - Fixed app icon theme choice being broken when downloading a file on macOS 26 and 27. ([#58790](https://github.com/brave/brave-browser/issues/58790))
+ - Fixed "Always allow" checkbox setting for "mailto" not being respected on the external protocol dialog on macOS. ([#16927](https://github.com/brave/brave-browser/issues/16927))
+ - Fixed incorrect tab tinting for achromatic colors. ([#58747](https://github.com/brave/brave-browser/issues/58747))
+ - Fixed shields icon jitter on PWAs in tabbed mode on Linux. ([#55708](https://github.com/brave/brave-browser/issues/55708))
+ - Upgraded Chromium to 155.0.8059.40. ([#59729](https://github.com/brave/brave-browser/issues/59729)) ([Changelog for 155.0.8059.40](https://chromium.googlesource.com/chromium/src/+log/154.0.8037.98..155.0.8059.40?pretty=fuller&n=1000))
+
+## [1.96.61](https://github.com/brave/brave-browser/releases/tag/v1.96.61)
+
+ - Reverted farbling support for schemes with inherited HTTP/HTTPS origin. ([#59276](https://github.com/brave/brave-browser/issues/59276))
+ - Fix crash which occurred when using a Private Window to do calculations in the omnibox. ([#59437](https://github.com/brave/brave-browser/issues/59437))
+ - Upgraded Chromium to 154.0.8037.98. ([#59587](https://github.com/brave/brave-browser/issues/59587)) ([Changelog for 154.0.8037.98](https://chromium.googlesource.com/chromium/src/+log/154.0.8037.93..154.0.8037.98?pretty=fuller&n=1000))
+
+## [1.96.60](https://github.com/brave/brave-browser/releases/tag/v1.96.60)
+
+ - Upgraded Chromium to 154.0.8037.93. ([#59449](https://github.com/brave/brave-browser/issues/59449)) ([Changelog for 154.0.8037.93](https://chromium.googlesource.com/chromium/src/+log/154.0.8037.58..154.0.8037.93?pretty=fuller&n=1000))
+
+## [1.96.59](https://github.com/brave/brave-browser/releases/tag/v1.96.59)
+
+ - Added preview dialog for "Screenshot" tool. ([#57937](https://github.com/brave/brave-browser/issues/57937))
+ - Updated brave://settings/system "Memory" section to display "Always keep these sites active" selections. ([#58960](https://github.com/brave/brave-browser/issues/58960))
+ - Updated location of "Screenshot" tool in hamburger menu from "Share" to "Save" section. ([#58425](https://github.com/brave/brave-browser/issues/58425))
+ - Updated "Shift + Right click" override to check for canvas elements on page. ([#56333](https://github.com/brave/brave-browser/issues/56333))
+ - Fixed renderer crash when "UserMediaElement" is disabled. ([#59012](https://github.com/brave/brave-browser/issues/59012))
+ - Fixed issue where onmibox calculation inputs were truncated in certain cases. ([#54277](https://github.com/brave/brave-browser/issues/54277))
+ - Fixed toggle for "Improve search suggestions" under brave://settings/search not being persisted on browser restart. ([#58943](https://github.com/brave/brave-browser/issues/58943))
+ - Fixed inability to edit startup pages under brave://settings/getStarted in certain cases. ([#58846](https://github.com/brave/brave-browser/issues/58846))
+ - Fixed desktop shortcuts displaying the Chromium icon instead of the Brave icon. ([#58499](https://github.com/brave/brave-browser/issues/58499))
+ - Fixed tab group hover card position when using vertical tabs. ([#58592](https://github.com/brave/brave-browser/issues/58592))
+ - Fixed missing "WM_CLASS" and Wayland app ID for video Picture-in-Picture (PiP) window on Linux. ([#57390](https://github.com/brave/brave-browser/issues/57390))
+ - Fixed issue where Brave News images weren't immediately rendered in the side panel. ([#58411](https://github.com/brave/brave-browser/issues/58411))
+ - Upgraded Chromium to 154.0.8037.58. ([#59235](https://github.com/brave/brave-browser/issues/59235)) ([Changelog for 154.0.8037.58](https://chromium.googlesource.com/chromium/src/+log/153.0.8010.53..154.0.8037.58?pretty=fuller&n=1000))
+
+## [1.95.104](https://github.com/brave/brave-browser/releases/tag/v1.95.104)
+
+ - Upgraded Chromium to 153.0.8010.53. ([#59125](https://github.com/brave/brave-browser/issues/59125)) ([Changelog for 153.0.8010.53](https://chromium.googlesource.com/chromium/src/+log/153.0.8010.48..153.0.8010.53?pretty=fuller&n=1000))
+
+## [1.95.102](https://github.com/brave/brave-browser/releases/tag/v1.95.102)
+
+ - Upgraded Chromium to 153.0.8010.48. ([#59028](https://github.com/brave/brave-browser/issues/59028)) ([Changelog for 153.0.8010.48](https://chromium.googlesource.com/chromium/src/+log/153.0.8010.37..153.0.8010.48?pretty=fuller&n=1000))
+
+## [1.95.101](https://github.com/brave/brave-browser/releases/tag/v1.95.101)
+
+ - Added calculator results to the address bar dropdown when typing basic math expressions. ([#52260](https://github.com/brave/brave-browser/issues/52260))
+ - Added "Always use mini icon for containers" setting under brave://settings/braveContent when "Containers" are enabled. ([#56954](https://github.com/brave/brave-browser/issues/56954))
+ - Added container name to tab hover card. ([#56175](https://github.com/brave/brave-browser/issues/56175))
+ - Added support for temporary containers via command-line switch. ([#57993](https://github.com/brave/brave-browser/issues/57993) & [#58019](https://github.com/brave/brave-browser/issues/58019))
+ - Added the ability to import passwords from Brave release channel build on macOS and Linux. ([#55631](https://github.com/brave/brave-browser/issues/55631))
+ - Added a keyboard shortcut for "Close all duplicate tabs". ([#45199](https://github.com/brave/brave-browser/issues/45199))
+ - Re-added keyboard shortcut for toggling between vertical and horizontal tabs. ([#52874](https://github.com/brave/brave-browser/issues/52874))
+ - Updated "navigator.userAgentData" to hide Brave UA for certain sites. ([#47826](https://github.com/brave/brave-browser/issues/47826))
+ - Updated the "Customize" modal on the New Tab Page. ([#57685](https://github.com/brave/brave-browser/issues/57685))
+ - Updated .dmg installer backgrounds on macOS. ([#58236](https://github.com/brave/brave-browser/issues/58236))
+ - Disabled platform authentication (Cloud AP) SSO in container tabs. ([#57741](https://github.com/brave/brave-browser/issues/57741))
+ - Fixed padding and widths of tab groups when using vertical tabs. ([#58010](https://github.com/brave/brave-browser/issues/58010))
+ - Fixed improper display of container icons when scrolling the horizontal tab bar. ([#57255](https://github.com/brave/brave-browser/issues/57255))
+ - Fixed "Auto expand vertical tabs independently per window" setting not working on Linux. ([#56842](https://github.com/brave/brave-browser/issues/56842))
+ - Fixed "Edit Password" showing "chrome://" scheme instead of "brave://" for internal page bookmarks. ([#40787](https://github.com/brave/brave-browser/issues/40787))
+ - Upgraded Chromium to 153.0.8010.37. ([#58822](https://github.com/brave/brave-browser/issues/58822)) ([Changelog for 153.0.8010.37](https://chromium.googlesource.com/chromium/src/+log/152.0.7977.83..153.0.8010.37?pretty=fuller&n=1000))
+
+## [1.94.121](https://github.com/brave/brave-browser/releases/tag/v1.94.121)
+
+ - Upgraded Chromium to 152.0.7977.83. ([#58701](https://github.com/brave/brave-browser/issues/58701)) ([Changelog for 152.0.7977.83](https://chromium.googlesource.com/chromium/src/+log/152.0.7977.76..152.0.7977.83?pretty=fuller&n=1000))
+
+## [1.94.119](https://github.com/brave/brave-browser/releases/tag/v1.94.119)
+
+ - Upgraded Chromium to 152.0.7977.76. ([#58609](https://github.com/brave/brave-browser/issues/58609)) ([Changelog for 152.0.7977.76](https://chromium.googlesource.com/chromium/src/+log/152.0.7977.64..152.0.7977.76?pretty=fuller&n=1000))
+
+## [1.94.117](https://github.com/brave/brave-browser/releases/tag/v1.94.117)
+
+ - Added OPML import and export for Brave News. ([#25695](https://github.com/brave/brave-browser/issues/25695))
+ - Added the ability to add Brave News to the sidebar. ([#29147](https://github.com/brave/brave-browser/issues/29147))
+ - Added the ability to show/hide vertical tabs button. ([#56859](https://github.com/brave/brave-browser/issues/56859))
+ - Added the ability to configure a keyboard shortcut for "Block Elements". ([#57259](https://github.com/brave/brave-browser/issues/57259))
+ - Added new keyboard shortcuts for toggling side panels. ([#57152](https://github.com/brave/brave-browser/issues/57152))
+ - Updated shields icon from Brave orange lion to Brave Origin icon. ([#56950](https://github.com/brave/brave-browser/issues/56950))
+ - Updated background images on the New Tab Page to be randomized. ([#56661](https://github.com/brave/brave-browser/issues/56661))
+ - Updated icons in the URL bar to be proportionally squared. ([#57402](https://github.com/brave/brave-browser/issues/57402))
+ - Updated farbling support for schemes with inherited HTTP/HTTPS origin. ([#56048](https://github.com/brave/brave-browser/issues/56048))
+ - Updated vertical tabs to retain scroll position when toggling expanded state. ([#52270](https://github.com/brave/brave-browser/issues/52270))
+ - Updated the vertical tab bar to be draggable. ([#30011](https://github.com/brave/brave-browser/issues/30011))
+ - Fixed crash which occurred when opening brave://history from guest profile. ([#58419](https://github.com/brave/brave-browser/issues/58419))
+ - Fixed farbling seed being retained between session restarts in certain cases. ([#56288](https://github.com/brave/brave-browser/issues/56288))
+ - Fixed both delta and full installers being requested on macOS. ([#45447](https://github.com/brave/brave-browser/issues/45447))
+ - Fixed "Reset to default" not working for Brave specific actions. ([#56733](https://github.com/brave/brave-browser/issues/56733))
+ - Fixed autohiding of vertical tabs panel on Linux. ([#50579](https://github.com/brave/brave-browser/issues/50579))
+ - Upgraded Chromium to 152.0.7977.64. ([#58417](https://github.com/brave/brave-browser/issues/58417)) ([Changelog for 152.0.7977.64](https://chromium.googlesource.com/chromium/src/+log/151.0.7922.173..152.0.7977.64?pretty=fuller&n=1000))
+
+## [1.93.138](https://github.com/brave/brave-browser/releases/tag/v1.93.138)
+
+ - Upgraded Chromium to 151.0.7922.173. ([#58314](https://github.com/brave/brave-browser/issues/58314)) ([Changelog for 151.0.7922.173](https://chromium.googlesource.com/chromium/src/+log/151.0.7922.169..151.0.7922.173?pretty=fuller&n=1000))
+
+## [1.93.137](https://github.com/brave/brave-browser/releases/tag/v1.93.137)
+
+ - Updated opening a link in a container to set "Sec-Fetch-Site:cross-origin" appropriately as reported on HackerOne by newfunction. ([#58230](https://github.com/brave/brave-browser/issues/58230))
+ - Upgraded Chromium to 151.0.7922.169. ([#58247](https://github.com/brave/brave-browser/issues/58247)) ([Changelog for 151.0.7922.169](https://chromium.googlesource.com/chromium/src/+log/151.0.7922.137..151.0.7922.169?pretty=fuller&n=1000))
+
+## [1.93.136](https://github.com/brave/brave-browser/releases/tag/v1.93.136)
+
+ - Disabled HEVC software decoder by default on Linux. ([#57974](https://github.com/brave/brave-browser/issues/57974))
+ - Fixed "getExtension" returning null script for extension. ([#57902](https://github.com/brave/brave-browser/issues/57902))
+ - Upgraded Chromium to 151.0.7922.137. ([#58062](https://github.com/brave/brave-browser/issues/58062)) ([Changelog for 151.0.7922.137](https://chromium.googlesource.com/chromium/src/+log/151.0.7922.108..151.0.7922.137?pretty=fuller&n=1000))
+
+## [1.93.134](https://github.com/brave/brave-browser/releases/tag/v1.93.134)
+
+ - Added migration of browser level extension settings for Brave-hosted MV2 extensions. ([#57454](https://github.com/brave/brave-browser/issues/57454))
+ - Fixed "getSupportedExtensions" overlap between "WebGL" and "WebGL2". ([#57736](https://github.com/brave/brave-browser/issues/57736))
+ - Upgraded Chromium to 151.0.7922.108. ([#57922](https://github.com/brave/brave-browser/issues/57922)) ([Changelog for 151.0.7922.108](https://chromium.googlesource.com/chromium/src/+log/151.0.7922.76..151.0.7922.108?pretty=fuller&n=1000))
+
+## [1.93.132](https://github.com/brave/brave-browser/releases/tag/v1.93.132)
+
+ - [Security] Fixed Widevine install prompt as reported on HackerOne by syarif07. ([#57649](https://github.com/brave/brave-browser/issues/57649))
+ - Fixed NoScript MV3 extension incorrectly being migrated to its Brave-hosted MV2 equivalent. ([#57760](https://github.com/brave/brave-browser/issues/57760))
+ - Fixed multiple shield icons being displayed in PWA windows after going fullscreen on macOS. ([#57349](https://github.com/brave/brave-browser/issues/57349))
+ - Fixed black bar being displayed on the tabs bar when using compact mode in fullscreen on macOS. ([#56914](https://github.com/brave/brave-browser/issues/56914))
+ - Upgraded Chromium to 151.0.7922.76. ([#57849](https://github.com/brave/brave-browser/issues/57849)) ([Changelog for 151.0.7922.76](https://chromium.googlesource.com/chromium/src/+log/151.0.7922.71..151.0.7922.76?pretty=fuller&n=1000))
+
+## [1.93.129](https://github.com/brave/brave-browser/releases/tag/v1.93.129)
+
+### General
+
+ - Added "Use compact mode" setting under brave://settings/appearance. ([#55506](https://github.com/brave/brave-browser/issues/55506))
+ - Added "Local history retention" setting under brave://settings/privacy. ([#29045](https://github.com/brave/brave-browser/issues/29045))
+ - Added context menu to the tab search button. ([#54887](https://github.com/brave/brave-browser/issues/54887))
+ - Added new WebGPU webcompat content settings type. ([#55927](https://github.com/brave/brave-browser/issues/55927))
+ - Improved adblocking. ([#57042](https://github.com/brave/brave-browser/issues/57042))
+ - Improved fingerprint farbling by adding support for "getSupportedExtensions" and "WebGL". ([#15904](https://github.com/brave/brave-browser/issues/15904))
+ - Updated location of tab search button. ([#56579](https://github.com/brave/brave-browser/issues/56579))
+ - Updated the sidebar to work independently from side panels. ([#56491](https://github.com/brave/brave-browser/issues/56491))
+ - Updated icons for Bookmarks side panel. ([#55826](https://github.com/brave/brave-browser/issues/55826))
+ - Updated icon sizing on sidebar. ([#56258](https://github.com/brave/brave-browser/issues/56258))
+ - Updated sync server configurability via brave://flags/#brave-override-sync-server-url. ([#48909](https://github.com/brave/brave-browser/issues/48909))
+ - Removed blocked query parameters for values like "=". ([#55924](https://github.com/brave/brave-browser/issues/55924))
+ - Fixed startup error messages not being localized. ([#56237](https://github.com/brave/brave-browser/issues/56237))
+ - Fixed issue where custom high-resolution background uploads for the New Tab Page caused the browser to get stuck in a loading state. ([#55551](https://github.com/brave/brave-browser/issues/55551))
+ - Fixed farbling of "Accept-Language" header position. ([#55271](https://github.com/brave/brave-browser/issues/55271))
+ - Fixed inability to play H.265/HEVC videos on Windows and Linux. ([#40101](https://github.com/brave/brave-browser/issues/40101))
+ - Upgraded Chromium to 151.0.7922.71. ([#57670](https://github.com/brave/brave-browser/issues/57670)) ([Changelog for 151.0.7922.71](https://chromium.googlesource.com/chromium/src/+log/150.0.7871.186..151.0.7922.71?pretty=fuller&n=1000))
+
+## [1.92.144](https://github.com/brave/brave-browser/releases/tag/v1.92.144)
+
+ - Upgraded Chromium to 150.0.7871.186. ([#57490](https://github.com/brave/brave-browser/issues/57490)) ([Changelog for 150.0.7871.186](https://chromium.googlesource.com/chromium/src/+log/150.0.7871.182..150.0.7871.186?pretty=fuller&n=1000))
+
+## [1.92.143](https://github.com/brave/brave-browser/releases/tag/v1.92.143)
+
+ - Upgraded Chromium to 150.0.7871.182. ([#57409](https://github.com/brave/brave-browser/issues/57409)) ([Changelog for 150.0.7871.182](https://chromium.googlesource.com/chromium/src/+log/150.0.7871.128..150.0.7871.182?pretty=fuller&n=1000))
+
+## [1.92.141](https://github.com/brave/brave-browser/releases/tag/v1.92.141)
+
+ - Fixed color picker displaying out of bounds when creating a new profile. ([#56808](https://github.com/brave/brave-browser/issues/56808))
+ - Fixed icon displaying in the title bar on browser launch when using vertical tabs on Windows. ([#57123](https://github.com/brave/brave-browser/issues/57123))
+ - Upgraded Chromium to 150.0.7871.128. ([#57262](https://github.com/brave/brave-browser/issues/57262)) ([Changelog for 150.0.7871.128](https://chromium.googlesource.com/chromium/src/+log/150.0.7871.125..150.0.7871.128?pretty=fuller&n=1000))
+
+## [1.92.140](https://github.com/brave/brave-browser/releases/tag/v1.92.140)
+
+ - Disabled extensions manifest V2 deprecation. ([#57155](https://github.com/brave/brave-browser/issues/57155))
+ - Fixed permission prompts not appearing in Container tabs. ([#56943](https://github.com/brave/brave-browser/issues/56943))
+ - Fixed unnecessary truncation of tab group titles. ([#56901](https://github.com/brave/brave-browser/issues/56901))
+ - Upgraded Chromium to 150.0.7871.125. ([#57142](https://github.com/brave/brave-browser/issues/57142)) ([Changelog for 150.0.7871.125](https://chromium.googlesource.com/chromium/src/+log/150.0.7871.114..150.0.7871.125?pretty=fuller&n=1000))
+
+## [1.92.139](https://github.com/brave/brave-browser/releases/tag/v1.92.139)
+
+ - Upgraded Chromium to 150.0.7871.114. ([#57016](https://github.com/brave/brave-browser/issues/57016)) ([Changelog for 150.0.7871.114](https://chromium.googlesource.com/chromium/src/+log/150.0.7871.101..150.0.7871.114?pretty=fuller&n=1000))
+
+## [1.92.138](https://github.com/brave/brave-browser/releases/tag/v1.92.138)
+
+ - Fixed issue where previously used download location was not retained. ([#56594](https://github.com/brave/brave-browser/issues/56594))
+ - Upgraded Chromium to 150.0.7871.101. ([#56956](https://github.com/brave/brave-browser/issues/56956)) ([Changelog for 150.0.7871.101](https://chromium.googlesource.com/chromium/src/+log/150.0.7871.63..150.0.7871.101?pretty=fuller&n=1000))
+
+## [1.92.134](https://github.com/brave/brave-browser/releases/tag/v1.92.134)
+
+ - Added Containers feature (being rolled out in phases using Griffin starting at 25%). ([#46349](https://github.com/brave/brave-browser/issues/46349))
+ - Improved UI/UX for vertical tabs. ([#56815](https://github.com/brave/brave-browser/issues/56815))
+ - Improved adblocking. ([#55430](https://github.com/brave/brave-browser/issues/55430))
+ - Updated Brave Shields icon to display on Progressive Web App (PWA) windows. ([#7715](https://github.com/brave/brave-browser/issues/7715))
+ - Updated settings under "Social media blocking" section of brave://settings/shields to be per-profile. ([#55277](https://github.com/brave/brave-browser/issues/55277))
+ - Replaced known Web Store MV2 extensions with Brave-hosted equivalents. ([#56654](https://github.com/brave/brave-browser/issues/56654))
+ - Fixed errors in macOS PKG "postinstall" script. ([#39567](https://github.com/brave/brave-browser/issues/39567))
+ - Upgraded Chromium to 150.0.7871.63. ([#56791](https://github.com/brave/brave-browser/issues/56791)) ([Changelog for 150.0.7871.63](https://chromium.googlesource.com/chromium/src/+log/149.0.7827.201..150.0.7871.63?pretty=fuller&n=1000))
+
+## [1.91.180](https://github.com/brave/brave-browser/releases/tag/v1.91.180)
+
+ - Upgraded Chromium to 149.0.7827.201. ([#56669](https://github.com/brave/brave-browser/issues/56669)) ([Changelog for 149.0.7827.201](https://chromium.googlesource.com/chromium/src/+log/149.0.7827.196..149.0.7827.201?pretty=fuller&n=1000))
+
+## [1.91.178](https://github.com/brave/brave-browser/releases/tag/v1.91.178)
+
+ - Fixed certain extensions not working as expected. ([#56271](https://github.com/brave/brave-browser/issues/56271))
+ - Fixed inability to use Brave Sync in certain cases. ([#55203](https://github.com/brave/brave-browser/issues/55203))
+ - Upgraded Chromium to 149.0.7827.196. ([#56598](https://github.com/brave/brave-browser/issues/56598)) ([Changelog for 149.0.7827.196](https://chromium.googlesource.com/chromium/src/+log/149.0.7827.155..149.0.7827.196?pretty=fuller&n=1000))
+
+## [1.91.175](https://github.com/brave/brave-browser/releases/tag/v1.91.175)
+
+ - Upgraded Chromium to 149.0.7827.155. ([#56446](https://github.com/brave/brave-browser/issues/56446)) ([Changelog for 149.0.7827.155](https://chromium.googlesource.com/chromium/src/+log/149.0.7827.115..149.0.7827.155?pretty=fuller&n=1000))
+
+## [1.91.172](https://github.com/brave/brave-browser/releases/tag/v1.91.172)
+
+ - Upgraded Chromium to 149.0.7827.115. ([#56299](https://github.com/brave/brave-browser/issues/56299)) ([Changelog for 149.0.7827.115](https://chromium.googlesource.com/chromium/src/+log/149.0.7827.103..149.0.7827.115?pretty=fuller&n=1000))
+
+## [1.91.171](https://github.com/brave/brave-browser/releases/tag/v1.91.171)
+
+ - Removed "Survey Panelist" setting from brave://settings/privacy. ([#56123](https://github.com/brave/brave-browser/issues/56123))
+ - Fixed P3A and usage ping under brave://settings/privacy being displayed on first launch on Linux. ([#56166](https://github.com/brave/brave-browser/issues/56166))
+ - Upgraded Chromium to 149.0.7827.103. ([#56198](https://github.com/brave/brave-browser/issues/56198)) ([Changelog for 149.0.7827.103](https://chromium.googlesource.com/chromium/src/+log/149.0.7827.54..149.0.7827.103?pretty=fuller&n=1000))
+
+## [1.91.168](https://github.com/brave/brave-browser/releases/tag/v1.91.168)
+
+ - Initial Brave Origin release. ([#37127](https://github.com/brave/brave-browser/issues/37127))
